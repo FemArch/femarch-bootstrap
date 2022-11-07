@@ -1,0 +1,12 @@
+NAME="FemArch Linux"
+PRETTY_NAME="FemArch Linux"
+ID=femarch
+ID_LIKE=arch
+BUILD_ID=rolling
+ANSI_COLOR="38;5;219"
+HOME_URL="https://femarch.tk/"
+DOCUMENTATION_URL="https://femarch.tk/"
+SUPPORT_URL="https://femarch.tk/"
+BUG_REPORT_URL="https://femarch.tk/"
+PRIVACY_POLICY_URL="https://femarch.tk/"
+LOGO=femarch-logo
