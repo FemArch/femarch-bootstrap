@@ -21,8 +21,10 @@ cp default.config /etc/uwufetch/config
 cp ./uwufetch.1.gz /usr/share/man/man1
 
 pacman-key --init
-pacman-key --populate nicroxio
-pacman-key --lsign-key nicroxio
+gpg --import /usr/share/pacman/keyrings/femarch.gpg
+pacman-key --add /usr/share/pacman/keyrings/femarch.gpg
+pacman-key --lsign-key 7062A8668D1D930BF985FD5DB52216032B237E33
+
 
 pacman -Sy calamares
 
