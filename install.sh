@@ -24,7 +24,7 @@ pacman-key --init
 pacman-key --populate nicroxio
 pacman-key --lsign-key nicroxio
 
-pacman --no-confirm -Sy calamares
+pacman -Sy calamares
 
 touch /bootstrap.ran
 rm -rf /root/femarch-bootstrap
