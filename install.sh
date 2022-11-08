@@ -19,6 +19,8 @@ cp -r res/* /usr/lib/uwufetch
 cp default.config /etc/uwufetch/config
 cp ./uwufetch.1.gz /usr/share/man/man1
 
+pacman-key --init
+
 pacman -Sy calamares
 
 touch /bootstrap.ran
