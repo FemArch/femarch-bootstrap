@@ -1,6 +1,5 @@
 #!/bin/bash
 
-systemctl start NetworkManager
 cp /root/femarch-bootstrap/os-release /etc/os-release # set os details
 cp /root/femarch-bootstrap/os-release /etc/initrd-release
 cp /root/femarch-bootstrap/os-release /usr/lib/os-release
