@@ -20,6 +20,8 @@ cp default.config /etc/uwufetch/config
 cp ./uwufetch.1.gz /usr/share/man/man1
 
 pacman-key --init
+pacman-key --populate nex
+pacman-key --lsign-key nex
 
 pacman -Sy calamares
 
